@@ -1,0 +1,3 @@
+9-Zerar completamente é improvável em sistemas do mundo real, tendo em vista que a inexistência de acoplamento significa que as partes do software não estão relacionadas de forma alguma
+
+
