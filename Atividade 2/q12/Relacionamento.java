@@ -12,7 +12,7 @@ public class Relacionamento {
         this.tipo = tipo;
     }
 
-    // Getters para obter informações sobre o relacionamento
+   
     public Usuario getIniciador() {
         return iniciador;
     }
