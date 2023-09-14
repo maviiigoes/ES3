@@ -1,0 +1,1 @@
+8-A ideia principal por trás desse princípio é que um objeto deve comunicar o que precisa ser feito, em vez de perguntar sobre o estado de outro objeto e então tomar decisões com base nesse estado. Mitigando o acoplamento: 
