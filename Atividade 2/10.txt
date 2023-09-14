@@ -1,0 +1,1 @@
+10- O encapsulamento é uma técnica eficaz para reduzir o acoplamento alto, tornando o código mais modular, flexível, fácil de manter e menos suscetível a problemas causados por mudanças em outras partes do sistema. 

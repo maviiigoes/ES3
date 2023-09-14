@@ -1,0 +1,7 @@
+6 - É a dependência entre classes, ou seja, uma conexão entre diferentes partes do código, especificamente entre classes.
+
+
+  
+
+
+      
