@@ -14,7 +14,6 @@ class CalculadoraImpostoDeRenda {
         if (baseCalculo <= 2826.65) {
             return baseCalculo * 0.075 - 142.80;
         }
-        // E assim por diante, para outros intervalos...
-        return baseCalculo * 0.275 - 869.36; // Para base de cálculo acima de 4664.68
+        return baseCalculo * 0.275 - 869.36; 
     }
 }
