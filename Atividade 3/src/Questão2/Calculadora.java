@@ -12,7 +12,6 @@ public class Calculadora {
         this.b = b;
     }
 
-    // Refatore o método calcular
     public List<Double> calcular(List<Operacao> operacoes) {
         List<Double> resultados = new ArrayList<>();
         for (Operacao operacao : operacoes) {
