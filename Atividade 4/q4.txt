@@ -1,0 +1,35 @@
+class Animal {
+    constructor(public nome: string) {}
+
+    mover() {
+        console.log(`${this.nome} está se movendo.`);
+    }
+}
+
+class Ave extends Animal {
+    voar() {
+        console.log(`${this.nome} está voando.`);
+    }
+}
+
+class Peixe extends Animal {
+    nadar() {
+        console.log(`${this.nome} está nadando.`);
+    }
+}
+
+
+class Mamifero extends Animal {
+    andar() {
+        console.log(`${this.nome} está andando.`);
+    }
+}
+
+//-------------PROBLEMA---------------
+
+class Baleia extends Mamifero {
+    // A baleia deveria poder nadar, mas não pode estender diretamente Peixe
+}
+
+//Neste ponto, a hierarquia de classes torna-se um problema, pois as baleias não se encaixam perfeitamente em nenhum dos ramos existentes (Animal ou Mamifero). 
+//Isso pode levar a soluções não ideais, como duplicação de código ou métodos que não fazem sentido na classe derivada.

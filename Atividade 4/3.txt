@@ -1,0 +1,37 @@
+class Animal {
+    constructor(public nome: string) {}
+
+    emitirSom(): void {
+        console.log("Som de animal");
+    }
+}
+
+class Pata extends Animal {
+    constructor(public nome: string, public cor: string) {
+       
+        super(nome);
+    }
+
+    emitirSom(): void {
+        
+        console.log("Som de pato");
+    }
+
+    nadar(): void {
+        console.log("Pata nadando");
+    }
+}
+
+// Exemplo de uso
+const animal: Animal = new Animal("Gato");
+animal.emitirSom();
+
+const pato: Pata = new Pata("Donald", "branco");
+pato.emitirSom();
+pato.nadar();
+
+
+
+-----------
+Neste exemplo, embora funcione em termos de reutilização de código, a hierarquia de herança pode dar a impressão de estar sendo mal aplicada, uma vez que Pata não é necessariamente um tipo de animal.
+-----------

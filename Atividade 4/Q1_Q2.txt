@@ -1,0 +1,8 @@
+1- Pois o termo "Liskov" refere-se a Barbara Liskov, uma renomada cientista da computação e o nome é uma homenagem ao seu trabalho e reconhecimento de suas contribuições significativas para o campo.
+
+2-A imagem central associada ao conceito é a do "quadrado-retângulo" simbolizando a hierarquia de classes, onde um programa que utilize uma classe base, como "retângulo", pode ser facilmente substituída por uma de suas classes derivadas, como "quadrado", sem comprometer a integridade do programa.
+
+
+
+
+

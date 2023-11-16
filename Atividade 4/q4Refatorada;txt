@@ -1,0 +1,60 @@
+class Animal {
+    constructor(public nome: string) {}
+
+    mover() {
+        console.log(`${this.nome} está se movendo.`);
+    }
+}
+
+interface Movimento {
+    mover(): void;
+}
+
+class Ave implements Movimento {
+    constructor(public animal: Animal) {}
+
+    mover() {
+        this.animal.mover();
+    }
+
+    voar() {
+        console.log(`${this.animal.nome} está voando.`);
+    }
+}
+
+class Peixe implements Movimento {
+    constructor(public animal: Animal) {}
+
+    mover() {
+        this.animal.mover();
+    }
+
+    nadar() {
+        console.log(`${this.animal.nome} está nadando.`);
+    }
+}
+
+class Mamifero implements Movimento {
+    constructor(public animal: Animal) {}
+
+    mover() {
+        this.animal.mover();
+    }
+
+    andar() {
+        console.log(`${this.animal.nome} está andando.`);
+    }
+}
+
+// Agora, podemos criar uma baleia que pode nadar e mover usando composição
+class Baleia implements Movimento {
+    constructor(public animal: Animal) {}
+
+    mover() {
+        this.animal.mover();
+    }
+
+    nadar() {
+        console.log(`${this.animal.nome} está nadando.`);
+    }
+}
