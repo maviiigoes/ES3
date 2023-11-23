@@ -1,0 +1,33 @@
+import java.io.*;
+
+import java.io.*;
+
+public interface Persistencia {
+    void salvar(String dados, String arquivo) throws IOException;
+}
+
+public class PersistenciaPadrao implements Persistencia {
+    @Override
+    public void salvar(String dados, String arquivo) throws IOException {
+        try (FileWriter writer = new FileWriter(arquivo)) {
+            writer.write(dados);
+        }
+    }
+}
+
+public class PersistenciaJSON implements Persistencia {
+    private Persistencia persistenciaPadrao;
+
+    public PersistenciaJSON(Persistencia persistenciaPadrao) {
+        this.persistenciaPadrao = persistenciaPadrao;
+    }
+
+    @Override
+    public void salvar(String dados, String arquivo) throws IOException {
+        if (!dados.startsWith("{")) {
+            throw new IllegalArgumentException("Dados não estão em formato JSON.");
+        }
+        persistenciaPadrao.salvar(dados, arquivo);
+    }
+}
+
