@@ -1,4 +1,4 @@
 Participantes:
-    Kairon - undefined
-    Maria Vitória
-    João de Deus
+- Kairon - undefined;
+- Maria Vitória;
+- João de Deus;
