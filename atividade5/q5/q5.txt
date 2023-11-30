@@ -1,0 +1,3 @@
+5. Qual a principal imagem relacionada ao princípio e qual a explicação sobre ela?
+    - Em vez de a lâmpada depender diretamente da fiação elétrica, ambos os componentes deveriam depender de uma abstração comum, como uma tomada elétrica padronizada.
+     Isso inverte a direção da dependência, seguindo o princípio do DIP.

@@ -1,0 +1,4 @@
+9. Você acha que esse princípio deveria ser um dos primeiros em um eventual
+“check-list” de princípios SOLID a aplicarmos?
+    - A depender do projeto e do escopo, especialmente se a arquitetura do sistema estiver sendo 
+planejada ou se houver uma necessidade clara de criar componentes facilmente substituíveis e testáveis, seria interessante ele ser um dos primeiros.

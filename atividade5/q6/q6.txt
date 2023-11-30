@@ -1,0 +1,2 @@
+6. O que você entende por programar para Interfaces?
+    Programar para interfaces é uma abordagem que enfatiza a criação de contratos abstratos entre diferentes partes do código, proporcionando benefícios como desacoplamento, flexibilidade e facilidade de manutenção.

@@ -1,0 +1,4 @@
+2. Por que devemos segregar implementações através do uso de interfaces?
+
+A razão pela qual devemos segregar implementações através do uso de interfaces está relacionada à coesão e acoplamento no design de software.
+Ao segregar interfaces, garantimos que uma classe tenha responsabilidade única, a evitar acoplamento indesejado entre classes, é mais fácil adicionar novas funcionalidades ou criar novas interfaces sem afetar as classes existentes e que as classes sejam reutilizadas mais facilmente em diferentes contextos, pois uma classe pode implementar apenas as interfaces relevantes para sua funcionalidade específica.

@@ -1,0 +1,7 @@
+3. Podemos dizer que esse princípio é correlato ao Single Responsability Principle
+pelo fato de que classes e interfaces devem ter um único “foco” (SRP) e que as
+interfaces com métodos não correlatos devem ser segregadas (ISP)?
+
+Sim, a correlação entre eles está na ideia de foco e responsabilidade única.
+Quando aplicamos ambos os princípios, buscamos criar classes e interfaces que tenham um propósito claro e que sejam coesas em relação a essa finalidade.
+Isso facilita a compreensão do código, torna as classes mais flexíveis para mudanças futuras e promove a reutilização de código.

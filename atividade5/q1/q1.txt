@@ -1,0 +1,4 @@
+1. Qual a principal imagem relacionada ao princípio e qual a explicação sobre ela?
+
+Este princípio estabelece que uma classe não deve ser forçada a implementar interfaces que ela não utiliza. 
+Dessa forma, a imagem mostra que não tem necessidade de adicionar algo que não irá usar ou não saberá como utilizar.

@@ -1,0 +1,7 @@
+8. Estude o conteúdo do link abaixo e explique como o DIP se aplicaria:
+
+https://pt.stackoverflow.com/questions/101692/como-funciona-o-padr%C3%A3o-
+repository
+
+- Dentro do padrão Repository, os serviços, que constituem a camada responsável pela interação entre a classe repository e os controllers, implementam a inversão de dependências. 
+Dessa forma, os serviços conhecem apenas a abstração do repositório (interface), a qual é recebida por meio da injeção de dependência.

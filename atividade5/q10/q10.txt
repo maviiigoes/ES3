@@ -1,0 +1,3 @@
+Numa visão geral, considera que se começarmos pelos 4 primeiros princípios
+SOLID, fatalmente o DIP já estaria implementado?
+    - Sim, pois ao aplicar os 4 primeiros princípios, ele já terá implementado tudo que é passado pelo DIP.
